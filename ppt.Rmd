@@ -1,0 +1,14 @@
+---
+title: "ppt.Rmd'"
+output: powerpoint_presentation
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Slide
+
+```{r}
+plot(cars)
+```
